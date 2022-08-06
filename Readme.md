@@ -212,7 +212,7 @@ while(i<=10){
 
 ```
 
-** Do While Loop **
+**Do While Loop**
 
 ```Java
 // do while loop is used to perform an action at least once even if the condition is false
@@ -231,7 +231,7 @@ do{
 }while(i>=10); // this will execute till i is greater than 10
 ```
 
-** For Loop **
+**For Loop**
 
 ```Java
 // for loop is used to perform an action for a given number of times
@@ -243,7 +243,7 @@ for(int i=0;i<=10;i++){
 
 ```
 
-** For Each Loop **
+**For Each Loop**
 
 ```Java
 // for each loop is used to iterate through the elements of an array or a collection
