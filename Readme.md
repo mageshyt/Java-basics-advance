@@ -109,6 +109,8 @@ Random rand=new Random();
 int randomNumber=rand.nextInt(10); // Output: 0 to 9
 ```
 
+## Conditional Statements
+
 ** If Statement **
 
 ```Java
@@ -140,4 +142,113 @@ else{
 }
 
 ```
-# Java-basics-advance
+
+** Switch Statement **
+
+```Java
+// switch statement is used to perform an action based on a condition
+/*! syntax
+    switch(condition){
+        case value1:
+            // code to be executed if condition is value1
+            break;
+        case value2:
+            // code to be executed if condition is value2
+            break;
+        default:
+            // code to be executed if condition is not value1, value2, value3
+            break;
+    }
+*/
+
+String day="Monday";
+switch(day){
+    case "Monday":
+        System.out.println("Today is Monday");
+        break;
+    case "Tuesday":
+        System.out.println("Today is Tuesday");
+        break;
+    case "Friday":
+        System.out.println("Today is Friday , Its WeekEnd time 🤤");
+        break;
+    case "Saturday":
+        System.out.println("Today is Saturday ");
+        break;
+    case "Sunday":
+        System.out.println("Today is Sunday so take rest 😀");
+        break;
+    default:
+        System.out.println("Invalid Day");
+        break;
+}
+```
+
+** While Loop **
+
+```Java
+// while loop is used to perform an action while a condition is true
+
+/*! syntax
+    while(condition){
+        // code to be executed
+    }
+*/
+
+int i=0;
+while(i<=10){
+    System.out.println(i);
+    i++;
+}
+```
+
+## Loops
+
+```In Java , we have 4 types of loops
+    1. for loop
+    2. while loop
+    3. do while loop
+    4. for each loop
+
+```
+
+** Do While Loop **
+
+```Java
+// do while loop is used to perform an action at least once even if the condition is false
+// code to be executed
+
+/*! syntax
+    while(condition){
+// code to be executed
+     }
+*/
+
+int i=19;
+do{
+    System.out.println(i);
+    i--;
+}while(i>=10); // this will execute till i is greater than 10
+```
+
+** For Loop **
+
+```Java
+// for loop is used to perform an action for a given number of times
+
+// syntax
+for(int i=0;i<=10;i++){
+    // code to be executed
+}
+
+```
+
+** For Each Loop **
+
+```Java
+// for each loop is used to iterate through the elements of an array or a collection
+int [] numbers={1,2,3,4,5};
+for(int i:numbers){
+    System.out.println(i);
+}
+```
