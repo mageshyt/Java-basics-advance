@@ -252,3 +252,61 @@ for(int i:numbers){
     System.out.println(i);
 }
 ```
+
+**Array**
+
+```Java
+   // Array is a collection of elements of the same type
+   String [] names={"Lara","Ts","Js","Python"};
+    System.out.println(names[0]); // Output: Lara
+    System.out.println(names[1]); // Output: Ts
+
+    // to print the elements of the array
+    for(int i=0;i<names.length;i++){
+        System.out.println(names[i]);
+    }
+
+    // to print the elements of the array in reverse order
+    for(int i=names.length-1;i>=0;i--){
+        System.out.println(names[i]);
+    }
+
+    // ! to get input from the user
+
+    String [] food=new String[3];
+
+    for(int i=0;i<food.length;i++){
+        System.out.println("Enter the name of the food");
+        food[i]=sc.nextLine();
+    }
+```
+
+**String**
+
+```Java
+        // String = a reference data type that stores a sequence of characters
+
+        // ! 1. String is immutable
+        // ! 2. String is not a primitive data type
+
+        String name = "John";
+        String name2 = new String("John");
+
+        boolean isEqual = name.equals(name2); // ! returns true if both strings are equal
+
+        int length = name.length(); // ! returns the length of the string
+
+        char charAt = name.charAt(0); // ! returns the character at the specified index
+
+        String substring = name.substring(0, 3); // ! returns a substring of the string
+
+        String toUpperCase = name.toUpperCase(); // ! returns a string with all characters in uppercase
+
+        String toLowerCase = name.toLowerCase(); // ! returns a string with all characters in lowercase
+
+        String Food = "Grapes";
+
+        String NewFood = Food.replace('G', 'P'); // ! replaces the first occurrence of the specified character with the
+                                                 // specified character
+
+```
