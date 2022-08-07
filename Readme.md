@@ -364,9 +364,12 @@ for(int i:numbers){
 ```Java
   public static void main(String[] args) {
         // function is a block of code that performs a specific task
-        sayHello("Magesh");
+        // function is a block of code that performs a specific task
+        sayHello("Magesh & Lara");
+        sayHello("Hemanth & Ranjith");
         sayHello("Sathivika");
-
+        sayHello("Nabe &devi");
+        sayHello("Amen & sindhu");
         int a = 10;
         int b = 20;
 
