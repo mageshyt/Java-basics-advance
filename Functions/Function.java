@@ -3,9 +3,9 @@ public class Function {
         // function is a block of code that performs a specific task
         sayHello("Magesh & Lara");
         sayHello("Hemanth & Ranjith");
-        sayHello("Sathivika");
-        sayHello("Nabe &devi");
         sayHello("Amen & sindhu");
+        sayHello("Nabe &devi");
+        sayHello("Sathivika");
 
         int a = 10;
         int b = 20;
