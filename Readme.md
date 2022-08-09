@@ -202,6 +202,33 @@ while(i<=10){
 }
 ```
 
+## Printf
+
+```Java
+    public static void main(String[] args) {
+
+        // ! printf() is a function that prints the formatted output to the console
+        // ! %d -> decimal
+        // ! %f -> float
+        // ! %s -> string
+        // ! %c -> character
+        // ! %d -> decimal
+
+        String name = "Magesh";
+        int age = 18;
+        boolean IsMarried = false;
+        char charAt = 'A';
+        float wealth = 1000000000.00f;
+
+        System.out.printf("My Name is %s", name);
+        System.out.printf("\nMy Age is %d", age);
+        System.out.printf("\nMy Wealth is %f", wealth);
+        System.out.printf("\nIs Married? %s", IsMarried ? "Yes" : "No");
+        System.out.printf("\nMy Character is %c \n", charAt);
+
+    }
+```
+
 ## Loops
 
 ```In Java , we have 4 types of loops
@@ -367,7 +394,7 @@ for(int i:numbers){
         // function is a block of code that performs a specific task
         sayHello("Magesh & Lara");
         sayHello("Hemanth & Ranjith");
-        sayHello("Sathivika");
+        sayHello("Sathvika");
         sayHello("Nabe &devi");
         sayHello("Amen & sindhu");
         int a = 10;
@@ -416,3 +443,12 @@ for(int i:numbers){
         return a + b + c + d;
     }
 ```
+
+# Object Oriented Programming
+
+<h2>Class</h1>
+
+<img src="https://cdn.sanity.io/images/7azvzymu/production/15bb14657ee290df82facebb598a774ac51fea29-4320x5372.png">
+
+<h2>Object</h1>
+<img src='https://cdn.sanity.io/images/7azvzymu/production/5b271138b200d2bd73bc053a2fd45c123f99a21e-4320x5372.png'>

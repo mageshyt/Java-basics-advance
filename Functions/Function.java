@@ -5,7 +5,7 @@ public class Function {
         sayHello("Hemanth & Ranjith");
         sayHello("Amen & sindhu");
         sayHello("Nabe &devi");
-        sayHello("Sathivika");
+        sayHello("Sathvika");
 
         int a = 10;
         int b = 20;
