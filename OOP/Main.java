@@ -1,6 +1,6 @@
-package OOP;
 
-public class OOP_1 {
+public class Main {
+
     public static void main(String[] args) {
 
         /*
@@ -8,6 +8,8 @@ public class OOP_1 {
          * class=template for object
          * method are functions that can be performed on object
          */
+        GameCharacter c1 = new GameCharacter("Wizard", 100, 100, "Magical");
+        c1.Ability();
 
     }
 

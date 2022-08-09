@@ -452,3 +452,118 @@ for(int i:numbers){
 
 <h2>Object</h1>
 <img src='https://cdn.sanity.io/images/7azvzymu/production/5b271138b200d2bd73bc053a2fd45c123f99a21e-4320x5372.png'>
+
+**Creating of class**
+
+```Java
+public class Monster {
+
+    String MonsterName;
+
+    String MonsterWeapon;
+
+    void power() {
+        System.out.printf("%s is using %s to attack 🔋 \n", MonsterName, MonsterWeapon);
+    }
+
+    void getData() {
+        Scanner sc = new Scanner(System.in);
+        System.out.printf("Enter Monster Name: ");
+        MonsterName = sc.nextLine();
+        System.out.printf("Enter Monster Weapon: ");
+        MonsterWeapon = sc.nextLine();
+        sc.close();
+    }
+
+    void Damage() {
+        System.out.printf("%s is doing damage 🔥 \n", MonsterName);
+    }
+
+}
+```
+
+```Java
+public class Main {
+
+    public static void main(String[] args) {
+
+        /*
+         * object=instance of class that may contain data and methods
+         * class=template for object
+         * method are functions that can be performed on object
+         */
+        Monster m1 = new Monster();
+        m1.getData(); // these are
+        m1.power();
+        m1.Damage();
+
+    }
+
+}
+```
+
+**Constructor**
+
+`constructor is a special method that is automatically called when an object`
+
+```Java
+public class GameCharacter {
+
+    private String name, weapon;
+    private int health;
+    private int power;
+
+    GameCharacter(String name, int power, int health, String weapon) {
+        // ! constructor is a special method that is automatically called when an object
+        // is created
+        this.name = name;
+        this.power = power;
+        this.health = health;
+        this.weapon = weapon;
+    }
+
+    public void Ability() {
+
+        System.out.printf("The %s Character has a %s Power with the %d Health   \n", name, weapon, health);
+
+    }
+
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        GameCharacter c1 = new GameCharacter("Wizard", 100, 100, "Magical");
+        c1.Ability();
+
+    }
+}
+```
+
+**variable scope**
+
+```Java
+  // Local -> variable declared inside a method that are visible only inside that method
+
+  // global -> variable declared outside a method , with in class are visible to the all part of the class
+
+//! Example
+public class Main {
+    String name="Lara"; // global variable
+
+    public static void main(String[] args) {
+        System.out.println("Hello " + name); // name can be accessed inside the the main
+
+        System.out.println("Hello " + programmer); // this will give error because programmer is not defined
+
+
+    }
+
+    public greet() {
+        String programmer="Magesh"; // local variable
+        System.out.println("Hello " + programmer); // program can be accessed  the the greet method only
+
+    }
+```
